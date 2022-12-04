@@ -1,0 +1,8 @@
+num=int(input('enter the no of elements in list:'))
+lst=[]
+for i in range (num):
+    elements=int(input('enter the elements:'))
+    output_list=lst.append(elements)
+print(output_list)
+output=list(map(lambda data:data*3,lst))
+print('resultsnt list is:',output)
